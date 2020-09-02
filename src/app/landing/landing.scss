@@ -1,0 +1,24 @@
+.HeroShot {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 74, 117, 0.55),
+      rgba(0, 74, 117, 0.55)
+    ),
+    url("../../assets/hero-background.jpg");
+  background-size: cover;
+
+  p,
+  h1,
+  h2 {
+    color: #ffffff;
+  }
+  
+  .button {
+    border-radius: 2px;
+  }
+}
+
+.footer {
+  background-color: #050328;
+  padding-bottom: 3rem;
+}
