@@ -1,0 +1,21 @@
+.card {
+  background: transparent;
+  border: 1px solid rgba(122, 122, 122, 0.5);
+  min-height: 100%;
+
+  &-header {
+    &-title {
+      font-weight: normal;
+      padding: 1rem 1rem 0 1rem;
+    }
+
+    &-icon {
+      cursor: unset;
+      padding: 1rem 1rem 0 1rem;
+    }
+  }
+
+  &-content {
+    padding: 1rem;
+  }
+}
