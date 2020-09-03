@@ -1,4 +1,4 @@
-const PANEL_CONTENTS = [
+export const PANEL_CONTENTS = [
   {
     icon: 'comments',
     title: 'Consult',
@@ -31,5 +31,3 @@ const PANEL_CONTENTS = [
     description: 'Activate catalyze and impact contextualize humanitarian. Unit of analysis overcome injustice storytelling altruism. Thought leadership mass incarceration. Outcomes big data, fairness, social game-changer.',
   },
 ];
-
-export default PANEL_CONTENTS;
