@@ -22,9 +22,7 @@
 
       <div class="columns">
         <p class="column is-9">
-          <label>
-            <input class="input" type="text" placeholder="Email address" />
-          </label>
+          <input class="input" type="text" placeholder="Email address" />
         </p>
 
         <p class="column">
