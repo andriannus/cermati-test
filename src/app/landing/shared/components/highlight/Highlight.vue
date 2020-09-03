@@ -1,4 +1,4 @@
-<template functional>
+<template>
   <section class="hero is-light has-text-centered py-4">
     <div class="hero-body">
       <div class="container">
