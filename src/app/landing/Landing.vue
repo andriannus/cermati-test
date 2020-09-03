@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Notification v-model="state.isShow">
+    <Notification v-model="state.isShowNotification">
       <template #content>
         By accessing and using this website, you acknowledge that you
         have read and understand our
@@ -62,6 +62,7 @@
     </div>
 
     <Copyright />
+    <Newsletter />
   </div>
 </template>
 

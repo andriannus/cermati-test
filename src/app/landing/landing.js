@@ -1,6 +1,7 @@
 import { reactive } from '@vue/composition-api';
 
 import Logo from '@/assets/logo.png';
+import Newsletter from '@/shared/components/newsletter/Newsletter.vue';
 import Notification from '@/shared/components/notification/Notification.vue';
 import Copyright from './shared/components/copyright/Copyright.vue';
 import Highlight from './shared/components/highlight/Highlight.vue';
@@ -15,6 +16,7 @@ export default {
   components: {
     Copyright,
     Highlight,
+    Newsletter,
     Notification,
     Panel,
   },
@@ -22,12 +24,12 @@ export default {
   setup() {
     const state = reactive({
       logo: Logo,
-      isShow: false,
+      isShowNotification: false,
       panelContents: PANEL_CONTENTS,
     });
 
     const toggleNotification = () => {
-      state.isShow = !state.isShow;
+      state.isShowNotification = !state.isShowNotification;
     };
 
     return {
