@@ -1,0 +1,10 @@
+.Notification {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.slideup-leave-active {
+  transition: all .5s;
+}
