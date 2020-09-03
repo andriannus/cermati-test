@@ -1,5 +1,5 @@
 <template>
-  <transition name="slidedown" @leave="onLeave">
+  <SlideTransition>
     <div v-if="isShow" class="Newsletter box">
       <button
         class="Newsletter-closeButton button is-small"
@@ -35,7 +35,7 @@
         </p>
       </div>
     </div>
-  </transition>
+  </SlideTransition>
 </template>
 
 <script src="./newsletter.js"></script>

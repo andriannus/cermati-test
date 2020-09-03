@@ -1,5 +1,5 @@
 .Newsletter {
-  background-color: rgba(22, 132, 196, .9);
+  background-color: rgba(22, 132, 196, 0.9);
   border-radius: 0;
   bottom: 0;
   color: #ffffff;
@@ -24,8 +24,4 @@
     color: #ffffff;
     font-weight: bold;
   }
-}
-
-.slidedown-leave-active {
-  transition: all .5s;
 }

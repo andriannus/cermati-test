@@ -1,5 +1,5 @@
 <template>
-  <transition name="slideup" @leave="onLeave">
+  <SlideTransition>
     <div
       v-if="!value"
       class="Notification box has-background-light is-radiusless is-shadowless mb-0"
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-  </transition>
+  </SlideTransition>
 </template>
 
 <script src="./notification.js"></script>
