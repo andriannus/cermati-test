@@ -48,11 +48,11 @@
             :key="index"
             class="column is-one-third-desktop is-half-tablet is-full-mobile"
           >
-            <highlight-panel
+            <Panel
               :description="content.description"
               :icon="content.icon"
               :title="content.title"
-            ></highlight-panel>
+            />
           </div>
         </div>
       </div>

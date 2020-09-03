@@ -16,5 +16,5 @@
   </div>
 </template>
 
-<script src="./highlight-panel.js"></script>
-<style lang="scss" src="./highlight-panel.scss" scoped></style>
+<script src="./panel.js"></script>
+<style lang="scss" src="./panel.scss" scoped></style>

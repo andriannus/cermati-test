@@ -1,7 +1,7 @@
 import { computed } from '@vue/composition-api';
 
 export default {
-  name: 'HighlightPanel',
+  name: 'Panel',
 
   props: {
     description: {
