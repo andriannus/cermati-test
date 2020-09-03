@@ -7,6 +7,10 @@ import Panel from './shared/components/panel/Panel.vue';
 import PANEL_CONTENTS from './shared/constants/landing.constant';
 
 export default {
+  metaInfo: {
+    title: 'Andriannus Parasian',
+  },
+
   components: {
     Footer,
     Highlight,
