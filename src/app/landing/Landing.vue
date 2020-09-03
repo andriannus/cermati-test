@@ -1,12 +1,26 @@
 <template>
   <div>
+    <Notification v-model="state.isShow">
+      <template #content>
+        By accessing and using this website, you acknowledge that you
+        have read and understand our
+        <router-link to="/">Cookie Policy</router-link>,
+        <router-link to="/">Privacy Policy</router-link>, and our
+        <router-link to="/">Terms of Service</router-link>.
+      </template>
+
+      <template #action>
+        <button class="button is-info" @click="toggleNotification">Got it</button>
+      </template>
+    </Notification>
+
     <section class="HeroShot hero is-medium">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item">
-                <img :src="logo" alt="Logo" />
+                <img :src="state.logo" alt="Logo" />
               </a>
             </div>
           </div>
@@ -33,7 +47,7 @@
       <div class="container">
         <div class="columns is-multiline is-mobile">
           <div
-            v-for="(content, index) in panelContents"
+            v-for="(content, index) in state.panelContents"
             :key="index"
             class="column is-one-third-desktop is-half-tablet is-full-mobile"
           >
@@ -47,7 +61,7 @@
       </div>
     </div>
 
-    <Footer />
+    <Copyright />
   </div>
 </template>
 
